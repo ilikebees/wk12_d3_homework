@@ -1,0 +1,49 @@
+Polymorphism:
+
+1. What does the ___word___ 'polymorphism' mean?
+
+ Something that is 'polymorphic' means that it can have 'many forms'.
+
+
+2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
+
+We can treat an instance of a class as if it is also another class/type at the same time.
+
+
+3. What can we use to implement polymorphism in Java?
+
+We can use an interface to implement polymorphism in Java.  
+
+
+4. How many 'forms' can an object take when using polymorphism?
+
+Many.
+
+
+5. Give an example of when you could use polymorphism.
+
+When we want to add different things to an ArrayList. To do this they need to be of the same type. By creating an interface that two separate classes inherit from, we can then have a single ArrayList where the type is the interface that we implement. 
+
+
+
+
+Composition:
+
+6. What do we mean by 'composition' in reference to object-oriented programming?
+
+In OOP, composition refers to a has-a relationship, where an object is made up of one or more objects.
+
+
+7. When would you use composition? Provide a simple example in Java.
+
+We compose objects from other objects to get us the functionality that we need. Such as a 'Hotel' object is composed of 'Room' objects.
+
+
+8. What is/are the advantage(s) of using composition?
+
+Composition allows a class to use behaviour from a group of other classes, and makes it possible for that behaviour to change at runtime.
+
+
+9. What happens to the behaviours when the object composed of them is destroyed?
+
+The object composed of other behaviours owns those behaviours. This means that when the object is destroyed, all its behaviours are also destroyed.
